@@ -1,6 +1,7 @@
 pragma solidity ^0.6.0;
 
-import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+import "../node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
+
 interface IYDAI {
     function deposit(uint _amount)  external;
     function withdraw(uint _shares) external;
